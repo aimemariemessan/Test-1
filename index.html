@@ -1,0 +1,707 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA CLEAN - Nettoyage & Entretien Cotonou | Particuliers & Professionnels</title>
+    <meta
+      name="description"
+      content="Site vitrine professionnel de NOVA CLEAN, entreprise de nettoyage et d'entretien à Cotonou (Akpakpa, Bénin) pour particuliers, bureaux et entreprises."
+    />
+    <meta property="og:title" content="NOVA CLEAN - Nettoyage & Entretien Cotonou" />
+    <meta
+      property="og:description"
+      content="Services professionnels de nettoyage à Cotonou : bureaux, résidences, fin de chantier, désinfection et vitrerie. Devis gratuit sous 24h."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Lora (serif élégante pour les titres) & Work Sans (sans-serif sobre pour le corps) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,400&family=Work+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body class="page-home">
+    <!-- Barre supérieure de réassurance / contact direct -->
+    <div class="top-bar" id="topBar">
+      <div class="container top-bar-content">
+        <div class="top-bar-item">
+          <svg class="icon-inline" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M12 2a8 8 0 0 0-8 8c0 5.25 8 12 8 12s8-6.75 8-12a8 8 0 0 0-8-8z"/>
+            <circle cx="12" cy="10" r="3"/>
+          </svg>
+          <span>Akpakpa, Cotonou, Bénin</span>
+        </div>
+        <div class="top-bar-item">
+          <svg class="icon-inline" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <span>Lun - Sam : 7h30 - 18h30 (Dimanche sur urgence)</span>
+        </div>
+        <div class="top-bar-item top-bar-contact">
+          <a href="tel:+2290168941085" class="top-bar-link" aria-label="Appeler NOVA CLEAN au 01 68 94 10 85">
+            <svg class="icon-inline" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            <span>01 68 94 10 85</span>
+          </a>
+          <a href="https://wa.me/2290168941085" target="_blank" rel="noopener noreferrer" class="top-bar-whatsapp" aria-label="Échanger sur WhatsApp">
+            WhatsApp direct
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Header fixe avec fond semi-transparent devenant opaque au scroll -->
+    <header class="site-header" id="siteHeader">
+      <div class="container header-container">
+        <!-- Logo de l'entreprise -->
+        <a href="index.html" class="brand-logo" aria-label="NOVA CLEAN - Accueil">
+          <span class="logo-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+              <rect width="40" height="40" rx="8" fill="#4A5D4E"/>
+              <path d="M20 9L23.09 15.26L30 16.27L25 21.14L26.18 28.02L20 24.77L13.82 28.02L15 21.14L10 16.27L16.91 15.26L20 9Z" fill="#F5F1E8"/>
+              <circle cx="28" cy="11" r="3" fill="#B5654A"/>
+            </svg>
+          </span>
+          <div class="logo-text">
+            <span class="logo-title">NOVA CLEAN</span>
+            <span class="logo-sub">Cotonou • Entretien & Propreté</span>
+          </div>
+        </a>
+
+        <!-- Navigation principale -->
+        <nav class="main-nav" id="mainNav" aria-label="Navigation principale">
+          <ul class="nav-list">
+            <li><a href="index.html" class="nav-link active" aria-current="page">Accueil</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="a-propos.html" class="nav-link">À propos</a></li>
+            <li><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- CTA Header & Menu Burger -->
+        <div class="header-actions">
+          <a href="contact.html" class="btn btn-accent btn-sm header-cta" id="headerCtaBtn">
+            Devis gratuit
+          </a>
+          <button
+            class="burger-btn"
+            id="burgerBtn"
+            type="button"
+            aria-label="Ouvrir le menu de navigation"
+            aria-expanded="false"
+            aria-controls="mobileDrawer"
+          >
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+            <span class="burger-line"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Drawer mobile pour navigation réactive -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <div class="mobile-drawer-content">
+        <div class="mobile-drawer-header">
+          <span class="logo-title">NOVA CLEAN</span>
+          <button class="close-drawer-btn" id="closeDrawerBtn" type="button" aria-label="Fermer le menu">
+            &times;
+          </button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="index.html" class="mobile-nav-link active">Accueil</a></li>
+          <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+          <li><a href="a-propos.html" class="mobile-nav-link">À propos</a></li>
+          <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-drawer-footer">
+          <a href="contact.html" class="btn btn-accent w-full">Demander un devis</a>
+          <div class="mobile-contact-info">
+            <p><strong>Akpakpa, Cotonou, Bénin</strong></p>
+            <p><a href="tel:+2290168941085">01 68 94 10 85</a></p>
+            <p>Lun - Sam : 7h30 - 18h30</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="drawer-overlay" id="drawerOverlay" aria-hidden="true"></div>
+
+    <main id="mainContent">
+      <!-- HERO EN PLEIN ÉCRAN -->
+      <section class="hero-section" id="hero">
+        <div class="hero-bg-media" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="container hero-container">
+          <div class="hero-content reveal">
+            <div class="badge hero-badge">Entreprise professionnelle à Cotonou</div>
+            <h1 class="hero-title">
+              L'exigence de la propreté, la sérénité en plus.
+            </h1>
+            <p class="hero-subtitle">
+              Partenaire de confiance des particuliers, résidences, commerces et entreprises à Cotonou. 
+              Des interventions méticuleuses, régulières ou ponctuelles, encadrées par des équipes rigoureuses et discrètes.
+            </p>
+            <div class="hero-actions">
+              <a href="contact.html" class="btn btn-accent btn-lg" id="heroCtaQuote">
+                Demander un devis gratuit
+              </a>
+              <a href="services.html" class="btn btn-outline-light btn-lg" id="heroCtaServices">
+                Découvrir nos 5 services
+              </a>
+            </div>
+            <!-- Éléments de réassurance rapides sous les boutons -->
+            <div class="hero-highlights">
+              <div class="highlight-item">
+                <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                <span>Devis détaillé sous 24h</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                <span>Équipes locales formées & déclarées</span>
+              </div>
+              <div class="highlight-item">
+                <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                </svg>
+                <span>Produits certifiés et respectueux</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PRÉSENTATION RAPIDE DE L'ENTREPRISE -->
+      <section class="section section-intro" id="presentation">
+        <div class="container">
+          <div class="intro-grid">
+            <div class="intro-text reveal">
+              <span class="section-tag">Qui sommes-nous</span>
+              <h2 class="section-title">
+                Un engagement quotidien pour la clarté et l'hygiène de vos espaces à Cotonou.
+              </h2>
+              <p class="paragraph-lead">
+                Implantée à <strong>Akpakpa</strong>, NOVA CLEAN est née d'une conviction simple : 
+                un environnement sain, propre et ordonné libère l'esprit des familles et décuple la performance des entreprises.
+              </p>
+              <p class="paragraph">
+                Nous nous éloignons des promesses superficielles pour bâtir des relations durables basées sur la régularité, 
+                la ponctualité et une discrétion absolue lors de chaque passage. Particuliers en villa, gestionnaires de bureaux 
+                ou commerces exigeants, nous adaptons nos méthodes à chaque cahier des charges.
+              </p>
+              <div class="intro-checklist">
+                <div class="check-item">
+                  <div class="check-icon" aria-hidden="true">&#10003;</div>
+                  <div>
+                    <strong>Cahier des charges sur-mesure</strong>
+                    <p class="text-sm">Fréquences quotidiennes, hebdomadaires ou interventions ciblées ponctuelles.</p>
+                  </div>
+                </div>
+                <div class="check-item">
+                  <div class="check-icon" aria-hidden="true">&#10003;</div>
+                  <div>
+                    <strong>Supervision directe sur le terrain</strong>
+                    <p class="text-sm">Chaque intervention fait l'objet d'un contrôle rigoureux par un chef d'équipe qualifié.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="intro-cta">
+                <a href="a-propos.html" class="btn btn-primary" id="introLearnMore">
+                  En savoir plus sur notre histoire
+                </a>
+              </div>
+            </div>
+            <div class="intro-media reveal">
+              <div class="image-frame">
+                <img
+                  src="https://images.unsplash.com/photo-1628177142898-93e36e4e3a50?auto=format&fit=crop&w=1000&q=80"
+                  alt="Agent de nettoyage professionnel NOVA CLEAN procédant à l'entretien soigné des surfaces de travail"
+                  loading="lazy"
+                  class="rounded-image"
+                />
+                <div class="image-caption-badge">
+                  <span class="badge-number">100%</span>
+                  <span class="badge-label">Engagé pour la satisfaction client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- GRILLE DES 5 SERVICES PRINCIPAUX -->
+      <section class="section section-services" id="services">
+        <div class="container">
+          <div class="section-header text-center reveal">
+            <span class="section-tag">Nos prestations</span>
+            <h2 class="section-title">Des solutions complètes pour tous vos besoins</h2>
+            <p class="section-subtitle">
+              De l'entretien quotidien de sièges d'entreprises au grand ménage résidentiel, nous mettons en œuvre des équipements professionnels et des protocoles éprouvés.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <!-- Service 1 -->
+            <article class="service-card reveal" id="serviceCardOffice">
+              <div class="service-card-media">
+                <img
+                  src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80"
+                  alt="Entretien complet de bureaux d'entreprise et open-space à Cotonou"
+                  loading="lazy"
+                />
+                <div class="service-icon-bubble" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="service-card-title">Entretien de bureaux & sièges sociaux</h3>
+                <p class="service-card-desc">
+                  Nettoyage régulier des postes de travail, salles de réunion, sanitaires et espaces d'accueil pour un cadre de travail valorisant et sain.
+                </p>
+                <a href="services.html#service-bureaux" class="service-card-link" aria-label="Détails du service entretien de bureaux">
+                  En savoir plus &rarr;
+                </a>
+              </div>
+            </article>
+
+            <!-- Service 2 -->
+            <article class="service-card reveal" id="serviceCardHome">
+              <div class="service-card-media">
+                <img
+                  src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?auto=format&fit=crop&w=800&q=80"
+                  alt="Nettoyage et ménage approfondi d'appartement et villa à Cotonou"
+                  loading="lazy"
+                />
+                <div class="service-icon-bubble" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="service-card-title">Nettoyage résidentiel & ménage régulier</h3>
+                <p class="service-card-desc">
+                  Pour villas et appartements : dépoussiérage méticuleux, sols, cuisine, salles d'eau et entretien du linge avec des intervenants de confiance.
+                </p>
+                <a href="services.html#service-residentiel" class="service-card-link" aria-label="Détails du service nettoyage résidentiel">
+                  En savoir plus &rarr;
+                </a>
+              </div>
+            </article>
+
+            <!-- Service 3 -->
+            <article class="service-card reveal" id="serviceCardConstruction">
+              <div class="service-card-media">
+                <img
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+                  alt="Nettoyage de fin de chantier après travaux de rénovation et construction"
+                  loading="lazy"
+                />
+                <div class="service-icon-bubble" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="service-card-title">Fin de chantier & remise en état</h3>
+                <p class="service-card-desc">
+                  Élimination des résidus de peinture, traces de ciment, poussières d'enduit et décapage minutieux avant emménagement ou inauguration.
+                </p>
+                <a href="services.html#service-chantier" class="service-card-link" aria-label="Détails du service fin de chantier">
+                  En savoir plus &rarr;
+                </a>
+              </div>
+            </article>
+
+            <!-- Service 4 -->
+            <article class="service-card reveal" id="serviceCardDisinfection">
+              <div class="service-card-media">
+                <img
+                  src="https://images.unsplash.com/photo-1584634731339-252c581abfc5?auto=format&fit=crop&w=800&q=80"
+                  alt="Désinfection des surfaces et traitement préventif antibactérien"
+                  loading="lazy"
+                />
+                <div class="service-icon-bubble" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="service-card-title">Désinfection & assainissement</h3>
+                <p class="service-card-desc">
+                  Traitements bactéricides et virucides des surfaces à contact fréquent, cliniques, espaces de restauration et locaux accueillant du public.
+                </p>
+                <a href="services.html#service-desinfection" class="service-card-link" aria-label="Détails du service désinfection">
+                  En savoir plus &rarr;
+                </a>
+              </div>
+            </article>
+
+            <!-- Service 5 -->
+            <article class="service-card reveal" id="serviceCardWindows">
+              <div class="service-card-media">
+                <img
+                  src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?auto=format&fit=crop&w=800&q=80"
+                  alt="Nettoyage et entretien professionnel de vitres et façades vitrées"
+                  loading="lazy"
+                />
+                <div class="service-icon-bubble" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+                    <line x1="3" y1="9" x2="21" y2="9"/>
+                    <line x1="9" y1="21" x2="9" y2="9"/>
+                  </svg>
+                </div>
+              </div>
+              <div class="service-card-body">
+                <h3 class="service-card-title">Vitrerie & façades vitrées</h3>
+                <p class="service-card-desc">
+                  Nettoyage sans trace des vitrines de commerces, baies vitrées coulissantes et fenêtres d'immeubles pour une luminosité maximale.
+                </p>
+                <a href="services.html#service-vitrerie" class="service-card-link" aria-label="Détails du service vitrerie">
+                  En savoir plus &rarr;
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div class="text-center mt-8 reveal">
+            <a href="services.html" class="btn btn-outline-dark" id="viewAllServicesBtn">
+              Voir tous les détails et tarifs de nos services
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- POURQUOI CHOISIR NOVA CLEAN -->
+      <section class="section section-why" id="avantages">
+        <div class="container">
+          <div class="section-header text-center reveal">
+            <span class="section-tag">Nos garanties</span>
+            <h2 class="section-title">Pourquoi confier vos locaux à NOVA CLEAN ?</h2>
+            <p class="section-subtitle">
+              Une organisation rigoureuse pensée pour soulager nos clients des contraintes logistiques du nettoyage.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <div class="feature-box reveal">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+              </div>
+              <h3 class="feature-title">Rigueur & Discrétion</h3>
+              <p class="feature-desc">
+                Des agents assermentés, ponctuels et respectueux de la confidentialité de vos locaux professionnels ou de votre intimité familiale.
+              </p>
+            </div>
+
+            <div class="feature-box reveal">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                </svg>
+              </div>
+              <h3 class="feature-title">Transparence Tarifaire</h3>
+              <p class="feature-desc">
+                Devis clair, détaillé et sans aucun frais caché. Pas d'engagement contraignant pour les prestations ponctuelles.
+              </p>
+            </div>
+
+            <div class="feature-box reveal">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 14 14"/>
+                </svg>
+              </div>
+              <h3 class="feature-title">Réactivité sous 24h</h3>
+              <p class="feature-desc">
+                Basés à Akpakpa, nous nous déplaçons rapidement dans tous les quartiers de Cotonou pour les visites préalables et interventions d'urgence.
+              </p>
+            </div>
+
+            <div class="feature-box reveal">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
+                </svg>
+              </div>
+              <h3 class="feature-title">Équipements & Produits Pro</h3>
+              <p class="feature-desc">
+                Aspirateurs à haute filtration, monobrosses industrielles et détergents homologués qui préservent la brillance de vos revêtements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CHIFFRES CLÉS ANIMÉS (sur fond vert sauge pour trancher) -->
+      <section class="section section-stats" id="chiffres">
+        <div class="container">
+          <div class="stats-grid">
+            <div class="stat-card reveal">
+              <div class="stat-number-wrapper">
+                <span class="stat-counter" data-target="350">0</span>
+                <span class="stat-suffix">+</span>
+              </div>
+              <div class="stat-label">Espaces entretenus à Cotonou</div>
+            </div>
+
+            <div class="stat-card reveal">
+              <div class="stat-number-wrapper">
+                <span class="stat-counter" data-target="98">0</span>
+                <span class="stat-suffix">%</span>
+              </div>
+              <div class="stat-label">Taux de fidélité & satisfaction</div>
+            </div>
+
+            <div class="stat-card reveal">
+              <div class="stat-number-wrapper">
+                <span class="stat-counter" data-target="24">0</span>
+                <span class="stat-suffix">h</span>
+              </div>
+              <div class="stat-label">Délai d'intervention moyen</div>
+            </div>
+
+            <div class="stat-card reveal">
+              <div class="stat-number-wrapper">
+                <span class="stat-counter" data-target="8">0</span>
+                <span class="stat-suffix">ans</span>
+              </div>
+              <div class="stat-label">D'expérience terrain cumulée</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TÉMOIGNAGES CLIENTS -->
+      <section class="section section-testimonials" id="temoignages">
+        <div class="container">
+          <div class="section-header text-center reveal">
+            <span class="section-tag">Avis & Confiance</span>
+            <h2 class="section-title">Ce que nos clients disent de notre travail</h2>
+            <p class="section-subtitle">
+              La fidélité de nos clients institutionnels et privés est notre meilleure carte de visite.
+            </p>
+          </div>
+
+          <div class="testimonials-grid">
+            <!-- Témoignage 1 -->
+            <div class="testimonial-card reveal">
+              <div class="testimonial-rating" aria-label="Note de 5 sur 5 étoiles">
+                ★★★★★
+              </div>
+              <blockquote class="testimonial-quote">
+                « NOVA CLEAN assure l'entretien de nos bureaux à Ganhi depuis plus d'un an. Nos collaborateurs apprécient la fraîcheur des locaux chaque matin et la discrétion exemplaire des agents. »
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+                  alt="Portrait d'Amina D., Directrice d'agence à Cotonou"
+                  loading="lazy"
+                  class="author-avatar"
+                />
+                <div class="author-meta">
+                  <div class="author-name">Amina D.</div>
+                  <div class="author-role">Directrice d'agence bancaire, Ganhi</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Témoignage 2 -->
+            <div class="testimonial-card reveal">
+              <div class="testimonial-rating" aria-label="Note de 5 sur 5 étoiles">
+                ★★★★★
+              </div>
+              <blockquote class="testimonial-quote">
+                « Après la rénovation de notre duplex à Akpakpa, la maison était recouverte de poussière de ciment. L'équipe a fait un miracle en une seule journée. Tout était immaculé pour notre emménagement. »
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+                  alt="Portrait de Patrice A., Résident à Akpakpa"
+                  loading="lazy"
+                  class="author-avatar"
+                />
+                <div class="author-meta">
+                  <div class="author-name">Patrice A.</div>
+                  <div class="author-role">Propriétaire de résidence, Akpakpa</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Témoignage 3 -->
+            <div class="testimonial-card reveal">
+              <div class="testimonial-rating" aria-label="Note de 5 sur 5 étoiles">
+                ★★★★★
+              </div>
+              <blockquote class="testimonial-quote">
+                « Trouver un prestataire de nettoyage fiable et rigoureux à Cotonou n'est pas simple. NOVA CLEAN se distingue par son suivi client irréprochable et sa ponctualité. Un vrai soulagement. »
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+                  alt="Portrait de Koffi M., Gestionnaire immobilier à Haie Vive"
+                  loading="lazy"
+                  class="author-avatar"
+                />
+                <div class="author-meta">
+                  <div class="author-name">Koffi M.</div>
+                  <div class="author-role">Gestionnaire de copropriétés, Haie Vive</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CTA FINAL AVANT FOOTER (Bandeau photo + overlay terracotta) -->
+      <section class="section section-cta-banner" id="contactCta">
+        <div class="cta-banner-bg" aria-hidden="true"></div>
+        <div class="cta-banner-overlay" aria-hidden="true"></div>
+        <div class="container cta-banner-container reveal">
+          <div class="cta-banner-content">
+            <span class="cta-badge">Prenez les devants</span>
+            <h2 class="cta-banner-title">
+              Besoin d'un espace impeccable sans perte de temps ?
+            </h2>
+            <p class="cta-banner-text">
+              Contactez notre équipe basée à Akpakpa. Nous établissons un devis personnalisé et gratuit 
+              adapté exactement à la superficie et aux contraintes de votre lieu.
+            </p>
+            <div class="cta-banner-actions">
+              <a href="contact.html" class="btn btn-light btn-lg" id="ctaBannerContact">
+                Demander mon devis gratuit
+              </a>
+              <a
+                href="https://wa.me/2290168941085?text=Bonjour%20NOVA%20CLEAN,%20je%20souhaite%20un%20devis%20de%20nettoyage"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-outline-white btn-lg"
+                id="ctaBannerWhatsapp"
+              >
+                Discuter sur WhatsApp
+              </a>
+            </div>
+            <div class="cta-phone-reminder">
+              Ou par téléphone direct : <strong>01 68 94 10 85</strong> (Lun - Sam, 7h30 - 18h30)
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER COMPLET -->
+    <footer class="site-footer" id="siteFooter">
+      <div class="container footer-container">
+        <div class="footer-grid">
+          <!-- Col 1 : Marque & Mission -->
+          <div class="footer-col footer-col-brand">
+            <a href="index.html" class="footer-logo">
+              <span class="logo-mark" aria-hidden="true">
+                <svg viewBox="0 0 40 40" width="32" height="32" fill="none">
+                  <rect width="40" height="40" rx="8" fill="#4A5D4E"/>
+                  <path d="M20 9L23.09 15.26L30 16.27L25 21.14L26.18 28.02L20 24.77L13.82 28.02L15 21.14L10 16.27L16.91 15.26L20 9Z" fill="#F5F1E8"/>
+                  <circle cx="28" cy="11" r="3" fill="#B5654A"/>
+                </svg>
+              </span>
+              <span class="logo-title">NOVA CLEAN</span>
+            </a>
+            <p class="footer-description">
+              Entreprise professionnelle de nettoyage et d'hygiène environnementale à Cotonou. 
+              Rigueur d'exécution, discrétion et respect absolu de votre cadre de vie et de travail.
+            </p>
+            <div class="footer-social-links">
+              <a href="https://wa.me/2290168941085" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp NOVA CLEAN" class="social-icon-link">
+                WhatsApp
+              </a>
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook NOVA CLEAN" class="social-icon-link">
+                Facebook
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn NOVA CLEAN" class="social-icon-link">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+
+          <!-- Col 2 : Liens rapides -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Accueil</a></li>
+              <li><a href="services.html">Nos Services</a></li>
+              <li><a href="a-propos.html">À propos de l'entreprise</a></li>
+              <li><a href="contact.html">Contact & Devis</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3 : Nos Services -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Nos Prestations</h4>
+            <ul class="footer-links">
+              <li><a href="services.html#service-bureaux">Nettoyage de bureaux</a></li>
+              <li><a href="services.html#service-residentiel">Ménage résidentiel</a></li>
+              <li><a href="services.html#service-chantier">Fin de chantier</a></li>
+              <li><a href="services.html#service-desinfection">Désinfection & hygiène</a></li>
+              <li><a href="services.html#service-vitrerie">Lavage de vitrerie</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 4 : Coordonnées -->
+          <div class="footer-col">
+            <h4 class="footer-heading">Coordonnées</h4>
+            <address class="footer-address">
+              <p>
+                <strong>Adresse :</strong><br />
+                Akpakpa, Cotonou, Bénin
+              </p>
+              <p>
+                <strong>Téléphone / WhatsApp :</strong><br />
+                <a href="tel:+2290168941085">01 68 94 10 85</a>
+              </p>
+              <p>
+                <strong>Horaires d'ouverture :</strong><br />
+                Lundi - Samedi : 7h30 - 18h30<br />
+                <span class="text-sm">Dimanche : interventions d'urgence sur réservation</span>
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 NOVA CLEAN. Tous droits réservés. Cotonou, République du Bénin.</p>
+          <div class="footer-bottom-links">
+            <a href="contact.html#politique">Mentions légales & Confidentialité</a>
+            <span>•</span>
+            <a href="contact.html#zones">Zone d'intervention : Cotonou & environs</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Script principal Vanilla JS -->
+    <script type="module" src="/js/main.js"></script>
+  </body>
+</html>
+
+

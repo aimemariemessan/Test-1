@@ -1,0 +1,6 @@
+{
+  "name": "NOVA CLEAN - Nettoyage & Entretien Cotonou",
+  "description": "Site vitrine professionnel de NOVA CLEAN, entreprise de nettoyage et d'entretien à Cotonou (Akpakpa, Bénin) pour particuliers, bureaux et entreprises.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
